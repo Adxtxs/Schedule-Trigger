@@ -14,11 +14,7 @@ This project demonstrates how to copy data from a PostgreSQL database to CSV, Pa
   - watchdog
 
 ## Installation
-Clone the repository:
    ```bash
-   git clone https://github.com/your-username/database-to-file-pipeline.git
-   cd database-to-file-pipeline 
-
 db_connection_str = 'postgresql://username:password@host:port/database_name'
 src_engine = create_engine('postgresql://username:password@host:port/source_database')
 dest_engine = create_engine('postgresql://username:password@host:port/destination_database')
